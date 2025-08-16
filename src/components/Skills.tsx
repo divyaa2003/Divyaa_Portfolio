@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Code, Globe, Palette, Settings, Cpu, Monitor, Layers } from "lucide-react";
+import { Code, Globe, Palette, Settings, Cpu, Monitor, Layers, Database } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
@@ -12,39 +12,19 @@ const Skills = () => {
         { name: "Java", icon: "☕" },
         { name: "Python", icon: "🐍" },
         { name: "JavaScript", icon: "🟨" },
-        { name: "C++", icon: "⚡" },
-        { name: "C", icon: "🅒" }
+        { name: "C", icon: "🅒" },
+        { name: "C++", icon: "⚡" }
       ]
     },
     {
-      title: "Frontend ",
+      title: "Frontend & UI/UX",
       icon: Globe,
       color: "portfolio-green",
       skills: [
         { name: "HTML", icon: "🌐" },
         { name: "CSS", icon: "🎨" },
-        { name: "React (Basics)", icon: "⚛️" }
-      
-      ]
-    },
-    {
-      title: "Backend and Databases ",
-      icon: Globe,
-      color: "portfolio-green",
-      skills: [
-        { name: "MongoDb", icon: "🍃" },
-        { name: "SpringBoot", icon: "🌐" },
-        { name: "Node.js", icon: "🟢" },
-        { name: "Express.js", icon: "🖥️ " },
-       
-        { name: "MySQL", icon: "🐬" }
-      ]
-    },
-    {
-      title: "UI/UX Design",
-      icon: Palette,
-      color: "portfolio-orange",
-      skills: [
+        { name: "React (Basics)", icon: "⚛️" },
+        { name: "Responsive Design", icon: "📱" },
         { name: "Figma", icon: "🎯" },
         { name: "Canva", icon: "🎪" },
         { name: "Wireframing", icon: "📐" },
@@ -52,17 +32,29 @@ const Skills = () => {
       ]
     },
     {
+      title: "Backend & Databases",
+      icon: Database,
+      color: "portfolio-blue",
+      skills: [
+        { name: "MySQL", icon: "🐬" },
+        { name: "MongoDB", icon: "🍃" },
+        { name: "Node.js", icon: "🟢" },
+        { name: "Express.js", icon: "🖥️" },
+        { name: "Spring Boot", icon: "🌐" },
+        { name: "RESTful API Development & Integration", icon: "🔗" }
+      ]
+    },
+    {
       title: "Other Tools",
       icon: Settings,
-      color: "portfolio-blue",
+      color: "portfolio-orange",
       skills: [
         { name: "Postman", icon: "📮" },
         { name: "Power BI", icon: "📊" },
         { name: "Tableau", icon: "📈" },
-        { name: "MS Excel", icon: "📋" },
-        { name: "Git and Github", icon: "🔧" },
-         { name: "Eclipse", icon: "🌘" },
-        { name: "VS Code", icon: "💻" }
+        { name: "VS Code", icon: "💻" },
+        { name: "Git", icon: "🔧" },
+        { name: "GitHub", icon: "🌍" }
       ]
     }
   ];
