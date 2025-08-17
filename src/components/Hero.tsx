@@ -70,8 +70,9 @@ const Hero = () => {
 
             {/* Description */}
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Proficient in Java,React.js, and Python, with a strong focus on building responsive, user-friendly applications. Adept at guiding design teams, managing projects from concept to deployment, and delivering high-quality, user-centric solutions.
-            </p>
+Skilled Software Developer and UI/UX Designer with hands-on experience in frontend & full-stack development, web
+technologies, & Team leadership. Proficient in React.js, Java, and Python, with a strong focus on building responsive, user-friendly
+applications. Adept at managing projects from concept to deployment and delivering high-quality, user-centric solutions.            </p>
 
             {/* Action Buttons */}
             <div className="flex gap-3 justify-center items-center pt-8">
