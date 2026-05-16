@@ -5,13 +5,29 @@ import { ExternalLink, Code, Leaf, Dumbbell, Search, Shield, Cpu, Monitor, Smart
 
 const Projects = () => {
   const projects = [
+     {
+    title: "Wave Signage Platform",
+    description:
+      "Worked on backend services and PostgreSQL to MongoDB migration for enterprise digital signage platform during internship at TP Vision (Philips).",
+    status: "Production",
+    icon: Server,
+    color: "portfolio-blue",
+    technologies: [
+      "Node.js",
+      "TypeScript",
+      "MongoDB",
+      "PostgreSQL",
+      "Docker",
+    ],
+   
+  },
     {
       title: "PranaEdge (AI Based Physical &  Wellness Platform)",
       description: "Yoga meditation app with chatbot, AI voice, and pose correction & detection. Personalized health-based suggestions.",
-      status: "Ongoing",
+      status: "Completed",
       icon: Leaf,
       color: "portfolio-green",
-      technologies: ["React.js", "HTML", "CSS"],
+      technologies: ["React.js", "Python","MongoDB", "MediaPipe"],
       link: "https://github.com/divyaa2003"
     },
      {

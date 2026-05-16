@@ -11,7 +11,7 @@ const Footer = () => {
             <span>by Divyaa Varshini G</span>
           </div>
           <p className="text-xs text-muted-foreground">
-            © 2025 Divyaa Varshini G. All rights reserved.
+            © 2026 Divyaa Varshini G. All rights reserved.
           </p>
         </div>
       </div>

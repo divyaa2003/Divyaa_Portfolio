@@ -13,7 +13,8 @@ const Skills = () => {
         { name: "Python", icon: "🐍" },
         { name: "JavaScript", icon: "🟨" },
         { name: "C", icon: "🅒" },
-        { name: "C++", icon: "⚡" }
+        { name: "C++", icon: "⚡" },
+        { name: "TypeScript", icon: "🔷" },
       ]
     },
     {
@@ -23,7 +24,7 @@ const Skills = () => {
       skills: [
         { name: "HTML", icon: "🌐" },
         { name: "CSS", icon: "🎨" },
-        { name: "React (Basics)", icon: "⚛️" },
+        { name: "React.js", icon: "⚛️" },
         { name: "Responsive Design", icon: "📱" },
         { name: "Figma", icon: "🎯" },
         { name: "Canva", icon: "🎪" },
@@ -38,6 +39,7 @@ const Skills = () => {
       skills: [
         { name: "MySQL", icon: "🐬" },
         { name: "MongoDB", icon: "🍃" },
+        { name: "PostgreSQL", icon: "🐘" },
         { name: "Node.js", icon: "🟢" },
         { name: "Express.js", icon: "🖥️" },
         { name: "Spring Boot", icon: "🌐" },
@@ -45,13 +47,15 @@ const Skills = () => {
       ]
     },
     {
-      title: "Other Tools",
+      title: "Tools & Platforms",
       icon: Settings,
       color: "portfolio-orange",
       skills: [
         { name: "Postman", icon: "📮" },
         { name: "Power BI", icon: "📊" },
         { name: "Tableau", icon: "📈" },
+        { name: "Docker", icon: "🐳" },
+    
         { name: "VS Code", icon: "💻" },
         { name: "Git", icon: "🔧" },
         { name: "GitHub", icon: "🌍" }
