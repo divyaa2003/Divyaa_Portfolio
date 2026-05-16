@@ -25,6 +25,7 @@ const Skills = () => {
         { name: "HTML", icon: "🌐" },
         { name: "CSS", icon: "🎨" },
         { name: "React.js", icon: "⚛️" },
+        { name: "React Native", icon: "📱" },
         { name: "Responsive Design", icon: "📱" },
         { name: "Figma", icon: "🎯" },
         { name: "Canva", icon: "🎪" },
